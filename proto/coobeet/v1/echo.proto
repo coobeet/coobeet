@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package coobeet.demo.v1;
+package coobeet.v1;
 
 service EchoService {
   rpc Echo(EchoRequest) returns (EchoResponse) {}
