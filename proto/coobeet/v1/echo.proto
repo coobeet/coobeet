@@ -2,7 +2,6 @@ syntax = "proto3";
 
 package coobeet.v1;
 
-// Test CI.
 service EchoService {
   rpc Echo(EchoRequest) returns (EchoResponse) {}
 }
