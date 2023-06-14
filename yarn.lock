@@ -1308,7 +1308,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-custom@*, eslint-config-custom@workspace:packages/eslint-config-custom":
+"eslint-config-custom@*, eslint-config-custom@workspace:^, eslint-config-custom@workspace:packages/eslint-config-custom":
   version: 0.0.0-use.local
   resolution: "eslint-config-custom@workspace:packages/eslint-config-custom"
   dependencies:
@@ -3879,13 +3879,13 @@ __metadata:
     "@types/node": ^18.0.0
     "@types/react": ^18.0.22
     "@types/react-dom": ^18.0.7
-    eslint-config-custom: "*"
+    eslint-config-custom: "workspace:^"
     next: ^13.4.1
     react: ^18.2.0
     react-dom: ^18.2.0
-    tsconfig: "*"
+    tsconfig: "workspace:^"
     typescript: ^4.5.3
-    ui: "*"
+    ui: "workspace:^"
   languageName: unknown
   linkType: soft
 
@@ -3974,7 +3974,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsconfig@*, tsconfig@workspace:packages/tsconfig":
+"tsconfig@workspace:^, tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "tsconfig@workspace:packages/tsconfig"
   languageName: unknown
@@ -4139,16 +4139,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ui@*, ui@workspace:packages/ui":
+"ui@workspace:^, ui@workspace:packages/ui":
   version: 0.0.0-use.local
   resolution: "ui@workspace:packages/ui"
   dependencies:
     "@types/react": ^18.2.0
     "@types/react-dom": ^18.2.0
     eslint: ^7.32.0
-    eslint-config-custom: "*"
+    eslint-config-custom: "workspace:^"
     react: ^17.0.2
-    tsconfig: "*"
+    tsconfig: "workspace:^"
     typescript: ^4.5.2
   languageName: unknown
   linkType: soft
