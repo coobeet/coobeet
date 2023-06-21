@@ -289,8 +289,8 @@ __metadata:
   linkType: hard
 
 "@turbo/gen@npm:^1.9.7":
-  version: 1.10.3
-  resolution: "@turbo/gen@npm:1.10.3"
+  version: 1.10.4
+  resolution: "@turbo/gen@npm:1.10.4"
   dependencies:
     chalk: 2.4.2
     commander: ^10.0.0
@@ -304,7 +304,7 @@ __metadata:
     validate-npm-package-name: ^5.0.0
   bin:
     gen: dist/cli.js
-  checksum: 70da94e58544d5092166434238e1b73f2d6e96ae27517585974132f455d349594615479f2682a0047d2d58b2de714f6e48f35741f218e56c33b96b3ec95a21cb
+  checksum: b25edf83d1105d135139ca2d9c91299fe4ffb2021d1b38432eea31f7d89f8d07a08ff913ca019dc68209cd0cef896902470bb6a89ca9eb6eb83dc8dae57de2b6
   languageName: node
   linkType: hard
 
@@ -1156,6 +1156,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
+  languageName: node
+  linkType: hard
+
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Femoji-regex%2F-%2Femoji-regex-8.0.0.tgz"
@@ -1314,13 +1321,13 @@ __metadata:
   linkType: hard
 
 "eslint-config-turbo@npm:^1.9.3":
-  version: 1.10.3
-  resolution: "eslint-config-turbo@npm:1.10.3"
+  version: 1.10.4
+  resolution: "eslint-config-turbo@npm:1.10.4"
   dependencies:
-    eslint-plugin-turbo: 1.10.3
+    eslint-plugin-turbo: 1.10.4
   peerDependencies:
     eslint: ">6.6.0"
-  checksum: 749a2c8e01dc4abb4784851a7049f034ee00b3911579283692771237606052077750ffc280fe5f556ffabe5069221300dc3c3d8e03b529ff728dc470753d41d7
+  checksum: 35592ec688df0b89cfc2ea9c2786fb2562ec177f0efc0fab83579d087e9d91939cd9b8a7ed1298bb3fe04f3b4266d4cc9f1a7a08a9999d686dbe4f6945f55b71
   languageName: node
   linkType: hard
 
@@ -1466,12 +1473,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-turbo@npm:1.10.3":
-  version: 1.10.3
-  resolution: "eslint-plugin-turbo@npm:1.10.3"
+"eslint-plugin-turbo@npm:1.10.4":
+  version: 1.10.4
+  resolution: "eslint-plugin-turbo@npm:1.10.4"
+  dependencies:
+    dotenv: 16.0.3
   peerDependencies:
     eslint: ">6.6.0"
-  checksum: b66ccea3bad9e8ca705f108c22a121255166cb7bce9a2a944414fa8184cca2aaffb03d06099a50b272ed8459f9aa7bcf8a418ea780d4199f96c94e18e95964cb
+  checksum: b0f25e4901ec1b59ff3532e45bf90c851a4933818e987067ffa8d19007cab6eedb44ce030e54c7351d188cdc498cedb8bb4ce006263159842eb2b438f5a9b454
   languageName: node
   linkType: hard
 
