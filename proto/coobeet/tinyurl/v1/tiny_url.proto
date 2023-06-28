@@ -7,8 +7,8 @@ message TinyUrl {
   string name = 1;
   // The generated tiny url code.
   string code = 2;
-  string tiny_url = 3;
-  string long_url = 4;
+  string long_url = 3;
+  string tiny_url = 4;
 }
 
 service TinyUrlService {
