@@ -42,11 +42,22 @@ As this is a demo project, security measures will be kept minimal. No authentica
 
 ## Deployment
 
-The frontend will be deployed on Vercel and the backend will be deployed on Google CloudRun.
+### Frontend
+
+- The frontend will be deployed on Vercel.
+- The frontend entry is https://frankh.dev/tinyurl.
+- The frontend will be using microfrontend architecture, which means it will be deployed as a standalone app.
+
+### Backend
+
+- The backend will be deployed on Google CloudRun.
+- The backend tinyurl management entry is https://frankh.dev/coobeet.tinyurl.v1.{method}.
+- The redirect handler will be deployed as a standalone app and call tinyurl service to get long url.
+- The redirect entry is at https://frankh.dev/r/{code}.
 
 ## API
 
-The TinyURL api will be using Protobuf as the data format.
+The TinyURL api will be using Protobuf as the data format, which can be found in [tiny_url.proto](/proto/coobeet/tinyurl/v1/tiny_url.proto).
 
 ## Future Improvements
 
