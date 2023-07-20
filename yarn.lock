@@ -296,8 +296,8 @@ __metadata:
   linkType: hard
 
 "@turbo/gen@npm:^1.9.7":
-  version: 1.10.8
-  resolution: "@turbo/gen@npm:1.10.8"
+  version: 1.10.9
+  resolution: "@turbo/gen@npm:1.10.9"
   dependencies:
     chalk: 2.4.2
     commander: ^10.0.0
@@ -311,7 +311,7 @@ __metadata:
     validate-npm-package-name: ^5.0.0
   bin:
     gen: dist/cli.js
-  checksum: cf3a616695d41fca607af75ea76c46c5c3162e253bbfcee4809af9c18f8a5ff103ff3c5b4f96e3ee426ffbb2979aa64d05924f7b21acae8a0c067ed4242aa0bb
+  checksum: 6645baa0b70e559ea5d2aa17bdaa213c70149911889a4af0956ba44455ba67c203dc2ce3dcaca852d952c0dbee3799759485a951baccb035bd8b6e4d1f6a626e
   languageName: node
   linkType: hard
 
