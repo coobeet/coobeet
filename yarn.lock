@@ -303,8 +303,8 @@ __metadata:
   linkType: hard
 
 "@turbo/gen@npm:^1.9.7":
-  version: 1.10.11
-  resolution: "@turbo/gen@npm:1.10.11"
+  version: 1.10.12
+  resolution: "@turbo/gen@npm:1.10.12"
   dependencies:
     chalk: 2.4.2
     commander: ^10.0.0
@@ -319,7 +319,7 @@ __metadata:
     validate-npm-package-name: ^5.0.0
   bin:
     gen: dist/cli.js
-  checksum: 87ecd931a05f1683454d42864fa6f0c3118a3201a13b23de69c6389f4b966c704b72f34da88bc19442956d41e8b205d92172e55a8e8ece341cddadfd79336c75
+  checksum: 1e83e230a26d6f68c8d0e99dbf16fc9e7dcbe1cfd6522cf1a7b7bf9027e33055ff3bba9048086fe3b4976d311fa6c73ff2e2101aa00bf4b339d33321206bc431
   languageName: node
   linkType: hard
 
@@ -1406,13 +1406,13 @@ __metadata:
   linkType: hard
 
 "eslint-config-turbo@npm:^1.9.3":
-  version: 1.10.11
-  resolution: "eslint-config-turbo@npm:1.10.11"
+  version: 1.10.12
+  resolution: "eslint-config-turbo@npm:1.10.12"
   dependencies:
-    eslint-plugin-turbo: 1.10.11
+    eslint-plugin-turbo: 1.10.12
   peerDependencies:
     eslint: ">6.6.0"
-  checksum: a54a67ebbb3e692836bc1eccf491f4965aeabadb8197181debfa71ac87bb75874293a8413b210e29a585412310379fa00fc26aca141131b5371cd3d585bb0d6f
+  checksum: 0d34d2f51b1c58e280065a1c5a72079db391615284e55ccc81b56e24c5954bf1f3f9d4a68bea5cf4e3ec384eaaa9e2d6c6e49b2f3ee9bfe6ce9cce9196c98f9c
   languageName: node
   linkType: hard
 
@@ -1583,14 +1583,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-turbo@npm:1.10.11":
-  version: 1.10.11
-  resolution: "eslint-plugin-turbo@npm:1.10.11"
+"eslint-plugin-turbo@npm:1.10.12":
+  version: 1.10.12
+  resolution: "eslint-plugin-turbo@npm:1.10.12"
   dependencies:
     dotenv: 16.0.3
   peerDependencies:
     eslint: ">6.6.0"
-  checksum: 476266febd197d0d71c707dddfdfb1dbe3572d319fa5b08a6b8bdd687f4a6c11b64444067de1fec813e848dcbdddad4ce535205ff20191c96629e0d3c4c63d27
+  checksum: 8f13089983979b727e5585d6a407cbc973e526eae56f20acff60a10cb03c81149c4e051958dc2fe5e3ec90563bed747289464ba8895d02af6edaed14d9dcc49a
   languageName: node
   linkType: hard
 
