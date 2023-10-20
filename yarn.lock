@@ -303,10 +303,10 @@ __metadata:
   linkType: hard
 
 "@turbo/gen@npm:^1.9.7":
-  version: 1.10.15
-  resolution: "@turbo/gen@npm:1.10.15"
+  version: 1.10.16
+  resolution: "@turbo/gen@npm:1.10.16"
   dependencies:
-    "@turbo/workspaces": 1.10.15
+    "@turbo/workspaces": 1.10.16
     chalk: 2.4.2
     commander: ^10.0.0
     fs-extra: ^10.1.0
@@ -319,13 +319,13 @@ __metadata:
     validate-npm-package-name: ^5.0.0
   bin:
     gen: dist/cli.js
-  checksum: c52d7c0998a8c73d52d7b0202c913f7c51290984aee64f76cf491e3a1ae5474c11b863331f816de44c6d0f91f25bb14a2a012aa62213eda0f955ef2609cefe0b
+  checksum: 1abd763ecb5d912dafd8bed533b0c7ad83b25c22a1a3b1d3284d1efe5708b78e854da1506808c03840a0174e60db422aa9f103dce122a4256468753e822c2c8f
   languageName: node
   linkType: hard
 
-"@turbo/workspaces@npm:1.10.15":
-  version: 1.10.15
-  resolution: "@turbo/workspaces@npm:1.10.15"
+"@turbo/workspaces@npm:1.10.16":
+  version: 1.10.16
+  resolution: "@turbo/workspaces@npm:1.10.16"
   dependencies:
     chalk: 2.4.2
     commander: ^10.0.0
@@ -341,7 +341,7 @@ __metadata:
     update-check: ^1.5.4
   bin:
     workspaces: dist/cli.js
-  checksum: 435a8dcbb2991b3249d9909d4f8e23d9bf56592139cad0ed010552bcf98df4bb8a90e7537f5b7526ae9d1ade6d1ad374e3d9ada45ccc28edfdcb46e9aa50ba4c
+  checksum: a026f32f1ac852b3d5d425cf780b951673394d3812fbe021b59c586684b297060661b9a776b3dd0e3af2253f41f0b6b1d472d1e8f64db562c272342bb55f5b4c
   languageName: node
   linkType: hard
 
@@ -1622,13 +1622,13 @@ __metadata:
   linkType: hard
 
 "eslint-config-turbo@npm:^1.9.3":
-  version: 1.10.15
-  resolution: "eslint-config-turbo@npm:1.10.15"
+  version: 1.10.16
+  resolution: "eslint-config-turbo@npm:1.10.16"
   dependencies:
-    eslint-plugin-turbo: 1.10.15
+    eslint-plugin-turbo: 1.10.16
   peerDependencies:
     eslint: ">6.6.0"
-  checksum: c48f12da65f62d29865f0b377492f3dad4d2c3e950d20629febf68e82eae20fec981fb1cda3ba72d57ee3b40ada47284821d630b3d5de7b19713e3dc923f6501
+  checksum: e5a6ec6d04f21c162f59bd2f3e7e25a311943d94d8130d7d5a7fdea375fa5acfd62918aa34467a5e56ab0f3ca087ea8e117354a5ff631bb38f1fe8a35444ae4b
   languageName: node
   linkType: hard
 
@@ -1777,14 +1777,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-turbo@npm:1.10.15":
-  version: 1.10.15
-  resolution: "eslint-plugin-turbo@npm:1.10.15"
+"eslint-plugin-turbo@npm:1.10.16":
+  version: 1.10.16
+  resolution: "eslint-plugin-turbo@npm:1.10.16"
   dependencies:
     dotenv: 16.0.3
   peerDependencies:
     eslint: ">6.6.0"
-  checksum: 51ffd874dd206ed2151067267fb7a75c42e8505584c9edb7029b336bd3175444f1054e87ff9f2e8dfaeb0aff93eafa5726cd157217ad3b6f320570a21f14a5b1
+  checksum: 00fdbd2cb956b3e9972c84169bb190bafaa274418989508bf52a5d1b5f7df0e850eb60fc702fedbc34477dcebc3e06450de0b81d8e30b56e061ced850e8cb8e3
   languageName: node
   linkType: hard
 
