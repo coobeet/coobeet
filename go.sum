@@ -12,3 +12,5 @@ go.einride.tech/aip v0.62.1 h1:qqdh0drjx+e1loreR3MKumeIN6QbDZysz+K6+x64lgY=
 go.einride.tech/aip v0.62.1/go.mod h1:kK5nO4xh3JoniXp64dxgT474Egmr5L7SlsGD6xvP6fU=
 go.einride.tech/aip v0.63.0 h1:1u2ppyKS9hj++bp+q4rOEma7dAbG7ZPl6tSBLf8t+wo=
 go.einride.tech/aip v0.63.0/go.mod h1:kK5nO4xh3JoniXp64dxgT474Egmr5L7SlsGD6xvP6fU=
+go.einride.tech/aip v0.64.0 h1:awFSNPnhLLfwcnIM6iLmDP94fSAlJD86Sl12XqY/lpk=
+go.einride.tech/aip v0.64.0/go.mod h1:kK5nO4xh3JoniXp64dxgT474Egmr5L7SlsGD6xvP6fU=
