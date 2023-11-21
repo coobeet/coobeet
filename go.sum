@@ -16,3 +16,5 @@ go.einride.tech/aip v0.64.0 h1:awFSNPnhLLfwcnIM6iLmDP94fSAlJD86Sl12XqY/lpk=
 go.einride.tech/aip v0.64.0/go.mod h1:kK5nO4xh3JoniXp64dxgT474Egmr5L7SlsGD6xvP6fU=
 go.einride.tech/aip v0.65.0 h1:aqKEV1g9diXcR6DAxBVZoJn6ho8SuC+TOZFXzuu7kLU=
 go.einride.tech/aip v0.65.0/go.mod h1:wcRZ57XFEvERWLPy9VqDBtXc/ZFj7ugsd32F5o8Th+s=
+go.einride.tech/aip v0.65.1 h1:G4kKhST4W235YLCDjOR71dlDmN94SI8DTRako73JK1o=
+go.einride.tech/aip v0.65.1/go.mod h1:qAhMsfT7plxBX+Oy7Huol6YUvZ0ZzdUz26yZsQwfl1M=
