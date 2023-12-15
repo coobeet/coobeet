@@ -1,14 +1,17 @@
-name: CI
+name: ci
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
-    types: [opened, synchronize]
+    types:
+      - opened
+      - synchronize
 
 jobs:
   build:
-    name: Build and Test
+    name: Lint and Build
     timeout-minutes: 15
     runs-on: ubuntu-latest
     # To use Remote Caching, uncomment the next lines and follow the steps below.
@@ -37,6 +40,3 @@ jobs:
 
       - name: Build
         run: yarn build
-
-      - name: Test
-        run: yarn test

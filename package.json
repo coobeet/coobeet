@@ -1,24 +1,24 @@
 {
   "name": "coobeet",
   "private": true,
-  "packageManager": "yarn@3.7.0",
+  "packageManager": "yarn@4.0.2",
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "test": "exit 0",
-    "lint:fix": "turbo run lint -- --fix",
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@turbo/gen": "^1.9.7",
-    "eslint": "^8.0.0",
-    "eslint-config-custom": "*",
-    "prettier": "^2.5.1",
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
+    "prettier": "^3.1.0",
     "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
