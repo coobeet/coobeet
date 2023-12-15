@@ -1017,6 +1017,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/analytics@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "@vercel/analytics@npm:1.1.1"
+  dependencies:
+    server-only: "npm:^0.0.1"
+  checksum: fece944678360085a5deaea3afdade16cab67097dca6585e02a1c4c67ac3ba91b8e0bb848b7ec686b87757aad763df5bae41ce103bdc16c6e586b9390d0b4c11
+  languageName: node
+  linkType: hard
+
+"@vercel/speed-insights@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "@vercel/speed-insights@npm:1.0.2"
+  checksum: cbb301dc2bb599024a5f5762e5deecc0ec5fcef1074e7505da5cc5fb824e7d9c5c5e6f13a3460912a5476f99fe53bdb15801e0bbdb385fbc15f98c3a2cb9e237
+  languageName: node
+  linkType: hard
+
 "@vercel/style-guide@npm:^5.1.0":
   version: 5.1.0
   resolution: "@vercel/style-guide@npm:5.1.0"
@@ -5010,6 +5026,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"server-only@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "server-only@npm:0.0.1"
+  checksum: c432348956641ea3f460af8dc3765f3a1bdbcf7a1e0205b0756d868e6e6fe8934cdee6bff68401a1dd49ba4a831c75916517a877446d54b334f7de36fa273e53
+  languageName: node
+  linkType: hard
+
 "set-function-length@npm:^1.1.1":
   version: 1.1.1
   resolution: "set-function-length@npm:1.1.1"
@@ -5882,6 +5905,8 @@ __metadata:
     "@types/node": "npm:^17.0.12"
     "@types/react": "npm:^18.0.22"
     "@types/react-dom": "npm:^18.0.7"
+    "@vercel/analytics": "npm:^1.1.1"
+    "@vercel/speed-insights": "npm:^1.0.2"
     eslint: "npm:^8.53.0"
     next: "npm:^14.0.3"
     react: "npm:^18.2.0"
