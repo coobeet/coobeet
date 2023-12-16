@@ -1,6 +1,6 @@
 ---
-title: 'The Time Machine'
-date: '2018-08-15'
+title: The Time Machine
+date: 2023-12-16
 tags: ['writings', 'book', 'reflection']
 draft: false
 summary: The Time Traveller (for so it will be convenient to speak of him) was

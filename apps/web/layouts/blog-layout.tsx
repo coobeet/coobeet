@@ -136,7 +136,7 @@ export function BlogLayout({
         <div>
           <ul>
             {displayPosts.map((post) => {
-              const { path, date, title, summary, tags } = post;
+              const { path, date, title: t, summary, tags } = post;
               return (
                 <li className="py-5" key={path}>
                   <article className="flex flex-col space-y-2 xl:space-y-0">
@@ -155,7 +155,7 @@ export function BlogLayout({
                             className="text-gray-900 dark:text-gray-100"
                             href={`/${path}`}
                           >
-                            {title}
+                            {t}
                           </Link>
                         </h2>
                         <div className="flex flex-wrap">

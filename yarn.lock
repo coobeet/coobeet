@@ -3265,6 +3265,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/katex@npm:^0":
+  version: 0.16.7
+  resolution: "@types/katex@npm:0.16.7"
+  checksum: 4fd15d93553be97c02c064e16be18d7ccbabf66ec72a9dc7fd5bfa47f0c7581da2f942f693c7cb59499de4c843c2189796e49c9647d336cbd52b777b6722a95a
+  languageName: node
+  linkType: hard
+
 "@types/mdast@npm:^3.0.0":
   version: 3.0.15
   resolution: "@types/mdast@npm:3.0.15"
@@ -3858,6 +3865,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"array-find-index@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "array-find-index@npm:1.0.2::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Farray-find-index%2F-%2Farray-find-index-1.0.2.tgz"
+  checksum: aac128bf369e1ac6c06ff0bb330788371c0e256f71279fb92d745e26fb4b9db8920e485b4ec25e841c93146bf71a34dcdbcefa115e7e0f96927a214d237b7081
+  languageName: node
+  linkType: hard
+
 "array-includes@npm:^3.1.6, array-includes@npm:^3.1.7":
   version: 3.1.7
   resolution: "array-includes@npm:3.1.7"
@@ -4295,6 +4309,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"camelcase-keys@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "camelcase-keys@npm:2.1.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fcamelcase-keys%2F-%2Fcamelcase-keys-2.1.0.tgz"
+  dependencies:
+    camelcase: "npm:^2.0.0"
+    map-obj: "npm:^1.0.0"
+  checksum: 55e8d787d4621cc72ca4d7868754ac4c5ae1d78e0d2e1cf71a7e57ebf1e9832ee394e19056a78cfd203f17298145ac47224d8b42ab60b3e18ab3f9846434794d
+  languageName: node
+  linkType: hard
+
+"camelcase@npm:^2.0.0":
+  version: 2.1.1
+  resolution: "camelcase@npm:2.1.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fcamelcase%2F-%2Fcamelcase-2.1.1.tgz"
+  checksum: 20a3ef08f348de832631d605362ffe447d883ada89617144a82649363ed5860923b021f8e09681624ef774afb93ff3597cfbcf8aaf0574f65af7648f1aea5e50
+  languageName: node
+  linkType: hard
+
 "camelcase@npm:^6.2.0":
   version: 6.3.0
   resolution: "camelcase@npm:6.3.0"
@@ -4596,6 +4627,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "commander@npm:8.3.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fcommander%2F-%2Fcommander-8.3.0.tgz"
+  checksum: 6b7b5d334483ce24bd73c5dac2eab901a7dbb25fd983ea24a1eeac6e7166bb1967f641546e8abf1920afbde86a45fbfe5812fbc69d0dc451bb45ca416a12a3a3
+  languageName: node
+  linkType: hard
+
 "comment-json@npm:^4.2.3":
   version: 4.2.3
   resolution: "comment-json@npm:4.2.3"
@@ -4841,6 +4879,15 @@ __metadata:
   version: 3.1.3
   resolution: "csstype@npm:3.1.3"
   checksum: f593cce41ff5ade23f44e77521e3a1bcc2c64107041e1bf6c3c32adc5187d0d60983292fda326154d20b01079e24931aa5b08e4467cc488b60bb1e7f6d478ade
+  languageName: node
+  linkType: hard
+
+"currently-unhandled@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "currently-unhandled@npm:0.4.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fcurrently-unhandled%2F-%2Fcurrently-unhandled-0.4.1.tgz"
+  dependencies:
+    array-find-index: "npm:^1.0.1"
+  checksum: 53fb803e582737bdb5de6b150f0924dd9abf7be606648b4c2871db1c682bf288e248e8066ef10548979732a680cfb6c047294e3877846c2cf2f8d40437d8a741
   languageName: node
   linkType: hard
 
@@ -5263,7 +5310,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"error-ex@npm:^1.3.1":
+"error-ex@npm:^1.2.0, error-ex@npm:^1.3.1":
   version: 1.3.2
   resolution: "error-ex@npm:1.3.2::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Ferror-ex%2F-%2Ferror-ex-1.3.2.tgz"
   dependencies:
@@ -6164,6 +6211,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"find-up@npm:^1.0.0":
+  version: 1.1.2
+  resolution: "find-up@npm:1.1.2::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Ffind-up%2F-%2Ffind-up-1.1.2.tgz"
+  dependencies:
+    path-exists: "npm:^2.0.0"
+    pinkie-promise: "npm:^2.0.0"
+  checksum: a2cb9f4c9f06ee3a1e92ed71d5aed41ac8ae30aefa568132f6c556fac7678a5035126153b59eaec68da78ac409eef02503b2b059706bdbf232668d7245e3240a
+  languageName: node
+  linkType: hard
+
 "find-up@npm:^4.1.0":
   version: 4.1.0
   resolution: "find-up@npm:4.1.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Ffind-up%2F-%2Ffind-up-4.1.0.tgz"
@@ -6391,6 +6448,13 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     hasown: "npm:^2.0.0"
   checksum: aa96db4f809734d26d49b59bc8669d73a0ae792da561514e987735573a1dfaede516cd102f217a078ea2b42d4c4fb1f83d487932cb15d49826b726cc9cd4470b
+  languageName: node
+  linkType: hard
+
+"get-stdin@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "get-stdin@npm:4.0.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fget-stdin%2F-%2Fget-stdin-4.0.1.tgz"
+  checksum: 4f73d3fe0516bc1f3dc7764466a68ad7c2ba809397a02f56c2a598120e028430fcff137a648a01876b2adfb486b4bc164119f98f1f7d7c0abd63385bdaa0113f
   languageName: node
   linkType: hard
 
@@ -7005,6 +7069,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"indent-string@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "indent-string@npm:2.1.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Findent-string%2F-%2Findent-string-2.1.0.tgz"
+  dependencies:
+    repeating: "npm:^2.0.0"
+  checksum: 2fe7124311435f4d7a98f0a314d8259a4ec47ecb221110a58e2e2073e5f75c8d2b4f775f2ed199598fbe20638917e57423096539455ca8bff8eab113c9bee12c
+  languageName: node
+  linkType: hard
+
 "indent-string@npm:^4.0.0":
   version: 4.0.0
   resolution: "indent-string@npm:4.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Findent-string%2F-%2Findent-string-4.0.0.tgz"
@@ -7290,6 +7363,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-finite@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "is-finite@npm:1.1.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fis-finite%2F-%2Fis-finite-1.1.0.tgz"
+  checksum: 532b97ed3d03e04c6bd203984d9e4ba3c0c390efee492bad5d1d1cd1802a68ab27adbd3ef6382f6312bed6c8bb1bd3e325ea79a8dc8fe080ed7a06f5f97b93e7
+  languageName: node
+  linkType: hard
+
 "is-fullwidth-code-point@npm:^3.0.0":
   version: 3.0.0
   resolution: "is-fullwidth-code-point@npm:3.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fis-fullwidth-code-point%2F-%2Fis-fullwidth-code-point-3.0.0.tgz"
@@ -7503,6 +7583,13 @@ __metadata:
   dependencies:
     upper-case: "npm:^1.1.0"
   checksum: c85805dfb9c5465f1db2492ce0feddd9273398a6dc0250b4d866f9bd23dbd92d0e2b57f4560ab195b2695b8403ff989265cf637f34b7443b706e0cd4d482b5ee
+  languageName: node
+  linkType: hard
+
+"is-utf8@npm:^0.2.0":
+  version: 0.2.1
+  resolution: "is-utf8@npm:0.2.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fis-utf8%2F-%2Fis-utf8-0.2.1.tgz"
+  checksum: 167ccd2be869fc228cc62c1a28df4b78c6b5485d15a29027d3b5dceb09b383e86a3522008b56dcac14b592b22f0a224388718c2505027a994fd8471465de54b3
   languageName: node
   linkType: hard
 
@@ -7781,6 +7868,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"katex@npm:^0.16.9":
+  version: 0.16.9
+  resolution: "katex@npm:0.16.9"
+  dependencies:
+    commander: "npm:^8.3.0"
+  bin:
+    katex: cli.js
+  checksum: 0a1ea1e87c286f845ccd12adadb39e5bc6655c830229195697e5ed74b525f3a4595e77ed3de57d3cfc678476c4bc074ee421fc2dc156554a11968f9d9b5093ea
+  languageName: node
+  linkType: hard
+
 "kbar@npm:0.1.0-beta.44":
   version: 0.1.0-beta.44
   resolution: "kbar@npm:0.1.0-beta.44"
@@ -7898,6 +7996,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"load-json-file@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "load-json-file@npm:1.1.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fload-json-file%2F-%2Fload-json-file-1.1.0.tgz"
+  dependencies:
+    graceful-fs: "npm:^4.1.2"
+    parse-json: "npm:^2.2.0"
+    pify: "npm:^2.0.0"
+    pinkie-promise: "npm:^2.0.0"
+    strip-bom: "npm:^2.0.0"
+  checksum: bb16e169d87df38806f5ffa7efa3287921839fdfee2c20c8525f53b53ba43d14b56b6881901c04190f7da4a4ba6e0c9784d212e83ee3a32d49bb986b5a6094cb
+  languageName: node
+  linkType: hard
+
 "locate-path@npm:^5.0.0":
   version: 5.0.0
   resolution: "locate-path@npm:5.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Flocate-path%2F-%2Flocate-path-5.0.0.tgz"
@@ -8009,6 +8120,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"loud-rejection@npm:^1.0.0":
+  version: 1.6.0
+  resolution: "loud-rejection@npm:1.6.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Floud-rejection%2F-%2Floud-rejection-1.6.0.tgz"
+  dependencies:
+    currently-unhandled: "npm:^0.4.1"
+    signal-exit: "npm:^3.0.0"
+  checksum: 750e12defde34e8cbf263c2bff16f028a89b56e022ad6b368aa7c39495b5ac33f2349a8d00665a9b6d25c030b376396524d8a31eb0dde98aaa97956d7324f927
+  languageName: node
+  linkType: hard
+
 "lower-case-first@npm:^1.0.0":
   version: 1.0.2
   resolution: "lower-case-first@npm:1.0.2::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Flower-case-first%2F-%2Flower-case-first-1.0.2.tgz"
@@ -8089,6 +8210,13 @@ __metadata:
     promise-retry: "npm:^2.0.1"
     ssri: "npm:^10.0.0"
   checksum: ded5a91a02b76381b06a4ec4d5c1d23ebbde15d402b3c3e4533b371dac7e2f7ca071ae71ae6dae72aa261182557b7b1b3fd3a705b39252dc17f74fa509d3e76f
+  languageName: node
+  linkType: hard
+
+"map-obj@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "map-obj@npm:1.0.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fmap-obj%2F-%2Fmap-obj-1.0.1.tgz"
+  checksum: f8e6fc7f6137329c376c4524f6d25b3c243c17019bc8f621d15a2dcb855919e482a9298a78ae58b00dbd0e76b640bf6533aa343a9e993cfc16e0346a2507e7f8
   languageName: node
   linkType: hard
 
@@ -8291,12 +8419,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mdx@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "mdx@npm:0.3.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fmdx%2F-%2Fmdx-0.3.1.tgz"
+  dependencies:
+    meow: "npm:3.6.0"
+    mustache: "npm:2.2.1"
+    object-assign: "npm:4.0.1"
+    read-input: "npm:0.3.1"
+  bin:
+    mdx: ./bin/mdx
+  checksum: cb1a2cf2da5c397e81a0b715a6aafcdf2a9911cd20a73b1dbce2725e5882f09ac4bdd7482edd2694272da0bf4fc92b02d3b81f61969d86e76c8d9cbbb1865499
+  languageName: node
+  linkType: hard
+
 "memfs@npm:^3.5.1":
   version: 3.5.3
   resolution: "memfs@npm:3.5.3"
   dependencies:
     fs-monkey: "npm:^1.0.4"
   checksum: 7c9cdb453a6b06e87f11e2dbe6c518fd3c1c1581b370ffa24f42f3fd5b1db8c2203f596e43321a0032963f3e9b66400f2c3cf043904ac496d6ae33eafd0878fe
+  languageName: node
+  linkType: hard
+
+"meow@npm:3.6.0":
+  version: 3.6.0
+  resolution: "meow@npm:3.6.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fmeow%2F-%2Fmeow-3.6.0.tgz"
+  dependencies:
+    camelcase-keys: "npm:^2.0.0"
+    loud-rejection: "npm:^1.0.0"
+    minimist: "npm:^1.1.3"
+    normalize-package-data: "npm:^2.3.4"
+    object-assign: "npm:^4.0.1"
+    read-pkg-up: "npm:^1.0.1"
+    redent: "npm:^1.0.0"
+    trim-newlines: "npm:^1.0.0"
+  checksum: fedd5d50eaeea6964f80a2aa3e1e4b4191699dc6065635df716bb23eb70c99a5b68a3b72d8ae91bbad24a736568aae885e34c1464a154286f9e8178d58719f33
   languageName: node
   linkType: hard
 
@@ -8760,7 +8918,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.6":
+"minimist@npm:^1.1.3, minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:^1.2.6":
   version: 1.2.8
   resolution: "minimist@npm:1.2.8"
   checksum: 908491b6cc15a6c440ba5b22780a0ba89b9810e1aea684e253e43c4e3b8d56ec1dcdd7ea96dde119c29df59c936cde16062159eae4225c691e19c70b432b6e6f
@@ -8896,6 +9054,15 @@ __metadata:
   version: 2.1.3
   resolution: "ms@npm:2.1.3::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fms%2F-%2Fms-2.1.3.tgz"
   checksum: aa92de608021b242401676e35cfa5aa42dd70cbdc082b916da7fb925c542173e36bce97ea3e804923fe92c0ad991434e4a38327e15a1b5b5f945d66df615ae6d
+  languageName: node
+  linkType: hard
+
+"mustache@npm:2.2.1":
+  version: 2.2.1
+  resolution: "mustache@npm:2.2.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fmustache%2F-%2Fmustache-2.2.1.tgz"
+  bin:
+    mustache: ./bin/mustache
+  checksum: cbdc9016b46d174265d93f3fa6a86b670f40744f10617ffbd0b5f38f597f98c21eb21a1c9a5c7cb3664835e3d93f085cdb0b15ae9a4d11ad6ee65336208d9ac0
   languageName: node
   linkType: hard
 
@@ -9172,7 +9339,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"normalize-package-data@npm:^2.5.0":
+"normalize-package-data@npm:^2.3.2, normalize-package-data@npm:^2.3.4, normalize-package-data@npm:^2.5.0":
   version: 2.5.0
   resolution: "normalize-package-data@npm:2.5.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fnormalize-package-data%2F-%2Fnormalize-package-data-2.5.0.tgz"
   dependencies:
@@ -9222,6 +9389,13 @@ __metadata:
   dependencies:
     boolbase: "npm:^1.0.0"
   checksum: 5afc3dafcd1573b08877ca8e6148c52abd565f1d06b1eb08caf982e3fa289a82f2cae697ffb55b5021e146d60443f1590a5d6b944844e944714a5b549675bcd3
+  languageName: node
+  linkType: hard
+
+"object-assign@npm:4.0.1":
+  version: 4.0.1
+  resolution: "object-assign@npm:4.0.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fobject-assign%2F-%2Fobject-assign-4.0.1.tgz"
+  checksum: cb8c72ccddcf68653c8c9ebd0de45b06b3f8791dce1c54ecafb0270f877e6872d07593911169c4031bd0d7bfd4f4034141ad699f0b6a5421c02f596e9f1f6b9d
   languageName: node
   linkType: hard
 
@@ -9542,6 +9716,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"parse-json@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "parse-json@npm:2.2.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fparse-json%2F-%2Fparse-json-2.2.0.tgz"
+  dependencies:
+    error-ex: "npm:^1.2.0"
+  checksum: 39924c0ddbf6f2544ab92acea61d91a0fb0ac959b0d19d273468cf8aa977522f8076e8fbb29cdab75c1440ebc2e172389988274890373d95fe308837074cc7e0
+  languageName: node
+  linkType: hard
+
 "parse-json@npm:^5.0.0, parse-json@npm:^5.2.0":
   version: 5.2.0
   resolution: "parse-json@npm:5.2.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fparse-json%2F-%2Fparse-json-5.2.0.tgz"
@@ -9590,6 +9773,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path-exists@npm:^2.0.0":
+  version: 2.1.0
+  resolution: "path-exists@npm:2.1.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fpath-exists%2F-%2Fpath-exists-2.1.0.tgz"
+  dependencies:
+    pinkie-promise: "npm:^2.0.0"
+  checksum: fdb734f1d00f225f7a0033ce6d73bff6a7f76ea08936abf0e5196fa6e54a645103538cd8aedcb90d6d8c3fa3705ded0c58a4da5948ae92aa8834892c1ab44a84
+  languageName: node
+  linkType: hard
+
 "path-exists@npm:^4.0.0":
   version: 4.0.0
   resolution: "path-exists@npm:4.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fpath-exists%2F-%2Fpath-exists-4.0.0.tgz"
@@ -9635,6 +9827,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path-type@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "path-type@npm:1.1.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fpath-type%2F-%2Fpath-type-1.1.0.tgz"
+  dependencies:
+    graceful-fs: "npm:^4.1.2"
+    pify: "npm:^2.0.0"
+    pinkie-promise: "npm:^2.0.0"
+  checksum: 59a4b2c0e566baf4db3021a1ed4ec09a8b36fca960a490b54a6bcefdb9987dafe772852982b6011cd09579478a96e57960a01f75fa78a794192853c9d468fc79
+  languageName: node
+  linkType: hard
+
 "path-type@npm:^4.0.0":
   version: 4.0.0
   resolution: "path-type@npm:4.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fpath-type%2F-%2Fpath-type-4.0.0.tgz"
@@ -9667,10 +9870,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pify@npm:^2.3.0":
+"pify@npm:^2.0.0, pify@npm:^2.3.0":
   version: 2.3.0
   resolution: "pify@npm:2.3.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fpify%2F-%2Fpify-2.3.0.tgz"
   checksum: 9503aaeaf4577acc58642ad1d25c45c6d90288596238fb68f82811c08104c800e5a7870398e9f015d82b44ecbcbef3dc3d4251a1cbb582f6e5959fe09884b2ba
+  languageName: node
+  linkType: hard
+
+"pinkie-promise@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "pinkie-promise@npm:2.0.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fpinkie-promise%2F-%2Fpinkie-promise-2.0.1.tgz"
+  dependencies:
+    pinkie: "npm:^2.0.0"
+  checksum: b53a4a2e73bf56b6f421eef711e7bdcb693d6abb474d57c5c413b809f654ba5ee750c6a96dd7225052d4b96c4d053cdcb34b708a86fceed4663303abee52fcca
+  languageName: node
+  linkType: hard
+
+"pinkie@npm:^2.0.0":
+  version: 2.0.4
+  resolution: "pinkie@npm:2.0.4::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fpinkie%2F-%2Fpinkie-2.0.4.tgz"
+  checksum: 11d207257a044d1047c3755374d36d84dda883a44d030fe98216bf0ea97da05a5c9d64e82495387edeb9ee4f52c455bca97cdb97629932be65e6f54b29f5aec8
   languageName: node
   linkType: hard
 
@@ -10062,6 +10281,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"read-input@npm:0.3.1":
+  version: 0.3.1
+  resolution: "read-input@npm:0.3.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fread-input%2F-%2Fread-input-0.3.1.tgz"
+  checksum: b7ab985bd3567780a76bf1a487bbe70783a9db794c3679698c555a929514624e4dce7bbbe554adb7e242f23d774c2dc5c0def5650457217b061b510a877a3687
+  languageName: node
+  linkType: hard
+
+"read-pkg-up@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "read-pkg-up@npm:1.0.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fread-pkg-up%2F-%2Fread-pkg-up-1.0.1.tgz"
+  dependencies:
+    find-up: "npm:^1.0.0"
+    read-pkg: "npm:^1.0.0"
+  checksum: d18399a0f46e2da32beb2f041edd0cda49d2f2cc30195a05c759ef3ed9b5e6e19ba1ad1bae2362bdec8c6a9f2c3d18f4d5e8c369e808b03d498d5781cb9122c7
+  languageName: node
+  linkType: hard
+
 "read-pkg-up@npm:^7.0.1":
   version: 7.0.1
   resolution: "read-pkg-up@npm:7.0.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fread-pkg-up%2F-%2Fread-pkg-up-7.0.1.tgz"
@@ -10070,6 +10306,17 @@ __metadata:
     read-pkg: "npm:^5.2.0"
     type-fest: "npm:^0.8.1"
   checksum: e4e93ce70e5905b490ca8f883eb9e48b5d3cebc6cd4527c25a0d8f3ae2903bd4121c5ab9c5a3e217ada0141098eeb661313c86fa008524b089b8ed0b7f165e44
+  languageName: node
+  linkType: hard
+
+"read-pkg@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "read-pkg@npm:1.1.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fread-pkg%2F-%2Fread-pkg-1.1.0.tgz"
+  dependencies:
+    load-json-file: "npm:^1.0.0"
+    normalize-package-data: "npm:^2.3.2"
+    path-type: "npm:^1.0.0"
+  checksum: a0f5d5e32227ec8e6a028dd5c5134eab229768dcb7a5d9a41a284ed28ad4b9284fecc47383dc1593b5694f4de603a7ffaee84b738956b9b77e0999567485a366
   languageName: node
   linkType: hard
 
@@ -10129,6 +10376,16 @@ __metadata:
   dependencies:
     picomatch: "npm:^2.2.1"
   checksum: 196b30ef6ccf9b6e18c4e1724b7334f72a093d011a99f3b5920470f0b3406a51770867b3e1ae9711f227ef7a7065982f6ee2ce316746b2cb42c88efe44297fe7
+  languageName: node
+  linkType: hard
+
+"redent@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "redent@npm:1.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fredent%2F-%2Fredent-1.0.0.tgz"
+  dependencies:
+    indent-string: "npm:^2.1.0"
+    strip-indent: "npm:^1.0.1"
+  checksum: 2bb8f76fda9c9f44e26620047b0ba9dd1834b0a80309d0badcc23fdcf7bb27a7ca74e66b683baa0d4b8cb5db787f11be086504036d63447976f409dd3e73fd7d
   languageName: node
   linkType: hard
 
@@ -10348,6 +10605,15 @@ __metadata:
   version: 1.6.1
   resolution: "repeat-string@npm:1.6.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Frepeat-string%2F-%2Frepeat-string-1.6.1.tgz"
   checksum: 1b809fc6db97decdc68f5b12c4d1a671c8e3f65ec4a40c238bc5200e44e85bcc52a54f78268ab9c29fcf5fe4f1343e805420056d1f30fa9a9ee4c2d93e3cc6c0
+  languageName: node
+  linkType: hard
+
+"repeating@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "repeating@npm:2.0.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Frepeating%2F-%2Frepeating-2.0.1.tgz"
+  dependencies:
+    is-finite: "npm:^1.0.0"
+  checksum: d2db0b69c5cb0c14dd750036e0abcd6b3c3f7b2da3ee179786b755cf737ca15fa0fff417ca72de33d6966056f4695440e680a352401fc02c95ade59899afbdd0
   languageName: node
   linkType: hard
 
@@ -10727,7 +10993,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
+"signal-exit@npm:^3.0.0, signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: a2f098f247adc367dffc27845853e9959b9e88b01cb301658cfe4194352d8d2bb32e18467c786a7fe15f1d44b233ea35633d076d5e737870b7139949d1ab6318
@@ -11106,6 +11372,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"strip-bom@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "strip-bom@npm:2.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fstrip-bom%2F-%2Fstrip-bom-2.0.0.tgz"
+  dependencies:
+    is-utf8: "npm:^0.2.0"
+  checksum: 08efb746bc67b10814cd03d79eb31bac633393a782e3f35efbc1b61b5165d3806d03332a97f362822cf0d4dd14ba2e12707fcff44fe1c870c48a063a0c9e4944
+  languageName: node
+  linkType: hard
+
 "strip-bom@npm:^3.0.0":
   version: 3.0.0
   resolution: "strip-bom@npm:3.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fstrip-bom%2F-%2Fstrip-bom-3.0.0.tgz"
@@ -11124,6 +11399,17 @@ __metadata:
   version: 3.0.0
   resolution: "strip-final-newline@npm:3.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fstrip-final-newline%2F-%2Fstrip-final-newline-3.0.0.tgz"
   checksum: 23ee263adfa2070cd0f23d1ac14e2ed2f000c9b44229aec9c799f1367ec001478469560abefd00c5c99ee6f0b31c137d53ec6029c53e9f32a93804e18c201050
+  languageName: node
+  linkType: hard
+
+"strip-indent@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "strip-indent@npm:1.0.1::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fstrip-indent%2F-%2Fstrip-indent-1.0.1.tgz"
+  dependencies:
+    get-stdin: "npm:^4.0.1"
+  bin:
+    strip-indent: cli.js
+  checksum: 81ad9a0b8a558bdbd05b66c6c437b9ab364aa2b5479ed89969ca7908e680e21b043d40229558c434b22b3d640622e39b66288e0456d601981ac9289de9700fbd
   languageName: node
   linkType: hard
 
@@ -11474,6 +11760,13 @@ __metadata:
   version: 3.0.1
   resolution: "trim-lines@npm:3.0.1"
   checksum: 7a1325e4ce8ff7e9e52007600e9c9862a166d0db1f1cf0c9357e359e410acab1278fcd91cc279dfa5123fc37b69f080de02f471e91dbbc61b155b9ca92597929
+  languageName: node
+  linkType: hard
+
+"trim-newlines@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "trim-newlines@npm:1.0.0::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Ftrim-newlines%2F-%2Ftrim-newlines-1.0.0.tgz"
+  checksum: ed96eea318581c6f894c0a98d0c4f16dcce11a41794ce140a79db55f1cab709cd9117578ee5e49a9b52f41e9cd93eaf3efa6c4bddbc77afbf91128b396fadbc1
   languageName: node
   linkType: hard
 
@@ -12147,6 +12440,7 @@ __metadata:
     "@tailwindcss/forms": "npm:^0.5.7"
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/eslint": "npm:^8.44.7"
+    "@types/katex": "npm:^0"
     "@types/node": "npm:^17.0.12"
     "@types/react": "npm:^18.0.22"
     "@types/react-dom": "npm:^18.0.7"
@@ -12157,6 +12451,8 @@ __metadata:
     date-fns: "npm:^2.30.0"
     eslint: "npm:^8.53.0"
     github-slugger: "npm:^2.0.0"
+    katex: "npm:^0.16.9"
+    mdx: "npm:^0.3.1"
     next: "npm:^14.0.3"
     next-contentlayer: "npm:^0.3.4"
     next-themes: "npm:^0.2.1"

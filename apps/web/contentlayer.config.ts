@@ -1,6 +1,7 @@
 import { writeFileSync } from 'node:fs';
 import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 import { slug } from 'github-slugger';
+import { extractTocHeadings } from 'pliny/mdx-plugins/remark-toc-headings.js';
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js';
 import type { Post } from '@/contentlayer/generated';
 import { siteMetadata } from './data/site-metadata';
@@ -44,8 +45,14 @@ export const post = defineDocumentType(() => ({
     title: { type: 'string', required: true },
     date: { type: 'date', required: true },
     draft: { type: 'boolean' },
+    lastmod: { type: 'date' },
     tags: { type: 'list', of: { type: 'string' }, default: [] },
     summary: { type: 'string' },
+    images: { type: 'list', of: { type: 'string' } },
+    authors: { type: 'list', of: { type: 'string' } },
+    layout: { type: 'string' },
+    bibliography: { type: 'string' },
+    canonicalUrl: { type: 'string' },
   },
   computedFields: {
     slug: {
@@ -60,13 +67,66 @@ export const post = defineDocumentType(() => ({
       type: 'string',
       resolve: (p) => `/${p._raw.flattenedPath}`,
     },
+    filePath: {
+      type: 'string',
+      resolve: (doc) => doc._raw.sourceFilePath,
+    },
+    toc: { type: 'string', resolve: (doc) => extractTocHeadings(doc.body.raw) },
+    structuredData: {
+      type: 'json',
+      resolve: (doc) => ({
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: doc.title,
+        datePublished: doc.date,
+        dateModified: doc.lastmod || doc.date,
+        description: doc.summary,
+        image: doc.images ? doc.images[0] : siteMetadata.socialBanner,
+        url: `${siteMetadata.siteUrl}/${doc._raw.flattenedPath}`,
+      }),
+    },
+  },
+}));
+
+export const author = defineDocumentType(() => ({
+  name: 'Author',
+  filePathPattern: `authors/*.md`,
+  contentType: 'mdx',
+  fields: {
+    name: { type: 'string', required: true },
+    avatar: { type: 'string' },
+    occupation: { type: 'string' },
+    company: { type: 'string' },
+    email: { type: 'string' },
+    twitter: { type: 'string' },
+    linkedin: { type: 'string' },
+    github: { type: 'string' },
+    layout: { type: 'string' },
+  },
+  computedFields: {
+    slug: {
+      type: 'string',
+      resolve: (doc) => doc._raw.flattenedPath.split('/')[1],
+    },
+    path: {
+      type: 'string',
+      resolve: (doc) => doc._raw.flattenedPath,
+    },
+    url: {
+      type: 'string',
+      resolve: (p) => `/${p._raw.flattenedPath}`,
+    },
+    filePath: {
+      type: 'string',
+      resolve: (doc) => doc._raw.sourceFilePath,
+    },
   },
 }));
 
 export default makeSource({
   disableImportAliasWarning: true,
   contentDirPath: 'data',
-  documentTypes: [post],
+  documentTypes: [post, author],
   onSuccess: async (importData) => {
     const { allPosts } = await importData();
     createTagCount(allPosts);
