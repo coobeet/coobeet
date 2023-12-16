@@ -6462,6 +6462,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"github-slugger@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "github-slugger@npm:2.0.0"
+  checksum: 2fb15d78262eeba1e68671f048c62d05ed21e51281cccc7b1c9e8e089e8510b3037fb648b8ba27290e60534df2cb251312a1e7e813204495df621220192fd600
+  languageName: node
+  linkType: hard
+
 "glob-parent@npm:^5.1.2, glob-parent@npm:~5.1.2":
   version: 5.1.2
   resolution: "glob-parent@npm:5.1.2::__archiveUrl=https%3A%2F%2Fr2.cnpmjs.org%2Fglob-parent%2F-%2Fglob-parent-5.1.2.tgz"
@@ -12149,6 +12156,7 @@ __metadata:
     contentlayer: "npm:^0.3.4"
     date-fns: "npm:^2.30.0"
     eslint: "npm:^8.53.0"
+    github-slugger: "npm:^2.0.0"
     next: "npm:^14.0.3"
     next-contentlayer: "npm:^0.3.4"
     next-themes: "npm:^0.2.1"
