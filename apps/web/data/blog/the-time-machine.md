@@ -1,7 +1,10 @@
 ---
 title: The Time Machine
 date: 2023-12-16
-tags: ['writings', 'book', 'reflection']
+tags:
+  - writings
+  - book
+  - reflection
 draft: false
 summary: The Time Traveller (for so it will be convenient to speak of him) was
   expounding a recondite matter to us. His pale grey eyes shone and
