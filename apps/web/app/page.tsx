@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { compareDesc, format, parseISO } from 'date-fns';
+import Link from 'next/link';
 import type { Post } from 'contentlayer/generated';
 import { allPosts } from 'contentlayer/generated';
 
