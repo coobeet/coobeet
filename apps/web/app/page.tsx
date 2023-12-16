@@ -2,6 +2,7 @@ import { compareDesc, format, parseISO } from 'date-fns';
 import Link from 'next/link';
 import type { Post } from 'contentlayer/generated';
 import { allPosts } from 'contentlayer/generated';
+import { ThemeSwitch } from '@/components/theme-switch';
 
 function PostCard(post: Post): JSX.Element {
   return (
@@ -32,6 +33,7 @@ export default function Page(): JSX.Element {
 
   return (
     <div className="mx-auto max-w-xl py-8">
+      <ThemeSwitch />
       <h1 className="mb-8 text-center text-2xl font-black">
         Next.js + Contentlayer Example
       </h1>

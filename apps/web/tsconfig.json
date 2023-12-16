@@ -8,10 +8,15 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@/components/*": ["components/*"],
+      "@/data/*": ["data/*"],
+      "@/lib/*": ["lib/*"],
+      "@/layouts/*": ["layouts/*"],
       "contentlayer/generated": ["./.contentlayer/generated"]
     }
   },
   "include": [
+    "env.d.ts",
     "next-env.d.ts",
     "next.config.js",
     "postcss.config.js",
