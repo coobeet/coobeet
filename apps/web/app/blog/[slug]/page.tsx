@@ -1,3 +1,6 @@
+import 'css/prism.css';
+import 'katex/dist/katex.css';
+
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { MDXLayoutRenderer } from 'pliny/mdx-components.js';

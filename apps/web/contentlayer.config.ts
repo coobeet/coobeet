@@ -1,8 +1,21 @@
 import { writeFileSync } from 'node:fs';
 import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 import { slug } from 'github-slugger';
-import { extractTocHeadings } from 'pliny/mdx-plugins/remark-toc-headings.js';
+import {
+  remarkExtractFrontmatter,
+  remarkCodeTitles,
+  remarkImgToJsx,
+  extractTocHeadings,
+} from 'pliny/mdx-plugins/index.js';
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import rehypeKatex from 'rehype-katex';
+import rehypePresetMinify from 'rehype-preset-minify';
+import rehypePrismPlus from 'rehype-prism-plus';
+import rehypeSlug from 'rehype-slug';
+// import remarkCitation from 'remark-citation';
+import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
 import type { Post } from '@/contentlayer/generated';
 import { siteMetadata } from './data/site-metadata';
 
@@ -127,6 +140,24 @@ export default makeSource({
   disableImportAliasWarning: true,
   contentDirPath: 'data',
   documentTypes: [post, author],
+  mdx: {
+    cwd: process.cwd(),
+    remarkPlugins: [
+      remarkExtractFrontmatter,
+      remarkGfm,
+      remarkCodeTitles,
+      remarkMath,
+      remarkImgToJsx,
+    ],
+    rehypePlugins: [
+      rehypeSlug,
+      rehypeAutolinkHeadings,
+      rehypeKatex,
+      // [rehypeCitation, { path: path.join(root, 'data') }],
+      [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
+      rehypePresetMinify,
+    ],
+  },
   onSuccess: async (importData) => {
     const { allPosts } = await importData();
     createTagCount(allPosts);
