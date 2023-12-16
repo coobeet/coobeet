@@ -1,23 +1,21 @@
 import type { PlinyConfig } from 'pliny/config.js';
 
 export const siteMetadata: PlinyConfig = {
-  title: `Coobeet's Blog`,
+  title: `Frank's Blog`,
   author: 'Frank Huang',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  headerTitle: `Frank's Blog`,
+  description: `Frank's blog created with Next.js and Tailwind.css.`,
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://coobeet.me',
   siteRepo: 'https://github.com/coobeet/coobeet',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'coobeet@gmail.com',
   github: 'https://github.com/coobeet',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  twitter: 'https://twitter.com/coobeetx',
+  facebook: 'https://facebook.com/coobeet',
+  linkedin: 'https://www.linkedin.com/in/coobeet',
   locale: 'en-US',
   image: '/static/images/logo.png',
   analytics: {
