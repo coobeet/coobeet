@@ -1,4 +1,6 @@
-import './globals.css';
+import 'css/tailwind.css';
+import 'pliny/search/algolia.css';
+
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';

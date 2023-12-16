@@ -1,16 +1,20 @@
 // @ts-check
+const path = require('node:path');
 const colors = require('tailwindcss/colors');
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
-/** @type {import("tailwindcss/types").Config } */
+/** @type {import('tailwindcss/types').Config } */
 module.exports = {
   content: [
-    './node_modules/pliny/**/*.js',
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,tsx}',
     './components/**/*.{js,ts,tsx}',
     './layouts/**/*.{js,ts,tsx}',
     './data/**/*.mdx',
+    path.join(
+      path.dirname(require.resolve('pliny/search/index.js')),
+      '../**/*.js',
+    ),
   ],
   darkMode: 'class',
   theme: {
