@@ -12,6 +12,10 @@ export const Post = defineDocumentType(() => ({
       type: 'string',
       resolve: (doc) => doc._raw.flattenedPath.split('/')[1],
     },
+    path: {
+      type: 'string',
+      resolve: (doc) => doc._raw.flattenedPath,
+    },
     url: {
       type: 'string',
       resolve: (post) => `/${post._raw.flattenedPath}`,
