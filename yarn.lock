@@ -1897,6 +1897,7 @@ __metadata:
   dependencies:
     "@repo/eslint-config": "npm:*"
     "@repo/typescript-config": "npm:*"
+    "@vercel/style-guide": "npm:^5.1.0"
     prettier: "npm:^3.1.0"
     turbo: "npm:latest"
   languageName: unknown
