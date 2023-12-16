@@ -111,7 +111,7 @@ export default function RootLayout({
               {/* eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- search is defined. */}
               <SearchProvider searchConfig={siteMetadata.search!}>
                 <Header />
-                {children}
+                <main className="mb-auto">{children}</main>
               </SearchProvider>
               <Footer />
             </div>
