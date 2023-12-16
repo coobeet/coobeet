@@ -60,3 +60,9 @@ yarn-error.log*
 
 # contentlayer
 .contentlayer
+
+# rss feed
+**/public/feed.xml
+
+# search
+**/public/search.json
