@@ -4,6 +4,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { Space_Grotesk as SpaceGrotesk } from 'next/font/google';
 import { SearchProvider } from 'pliny/search/index.js';
+import { Footer } from '@/components/footer';
 import { Header } from '@/components/header';
 import { SectionContainer } from '@/components/section-container';
 import { siteMetadata } from '@/data/site-metadata';
@@ -110,6 +111,7 @@ export default function RootLayout({
                 <Header />
                 {children}
               </SearchProvider>
+              <Footer />
             </div>
           </SectionContainer>
           <Analytics />
