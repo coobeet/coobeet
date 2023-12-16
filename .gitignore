@@ -57,3 +57,12 @@ yarn-error.log*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# contentlayer
+.contentlayer
+
+# rss feed
+**/public/feed.xml
+
+# search
+**/public/search.json

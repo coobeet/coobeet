@@ -5,14 +5,26 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/contentlayer/*": [".contentlayer/*"],
+      "@/components/*": ["components/*"],
+      "@/data/*": ["data/*"],
+      "@/lib/*": ["lib/*"],
+      "@/layouts/*": ["layouts/*"]
+    }
   },
   "include": [
+    "env.d.ts",
     "next-env.d.ts",
     "next.config.js",
+    "postcss.config.js",
+    "tailwind.config.js",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".contentlayer/generated"
   ],
   "exclude": ["node_modules"]
 }
