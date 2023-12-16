@@ -28,6 +28,7 @@ module.exports = {
         primary: colors.pink,
         gray: colors.gray,
       },
+      // @ts-ignore
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
