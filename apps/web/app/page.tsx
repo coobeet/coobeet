@@ -1,8 +1,8 @@
 import { compareDesc, format, parseISO } from 'date-fns';
 import Link from 'next/link';
+import { ThemeSwitch } from '@/components/theme-switch';
 import type { Post } from 'contentlayer/generated';
 import { allPosts } from 'contentlayer/generated';
-import { ThemeSwitch } from '@/components/theme-switch';
 
 function PostCard(post: Post): JSX.Element {
   return (
@@ -20,7 +20,7 @@ function PostCard(post: Post): JSX.Element {
       </time>
       <div
         className="text-sm [&>*]:mb-3 [&>*:last-child]:mb-0"
-        dangerouslySetInnerHTML={{ __html: post.body.html }}
+        dangerouslySetInnerHTML={{ __html: post.body.raw }}
       />
     </div>
   );

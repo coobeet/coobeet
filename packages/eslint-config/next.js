@@ -36,5 +36,29 @@ module.exports = {
   overrides: [{ files: ['*.js?(x)', '*.ts?(x)'] }],
   rules: {
     'import/no-default-export': 'off',
+    'import/order': [
+      'error',
+      {
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+        pathGroups: [
+          {
+            pattern: '@/**',
+            group: 'internal',
+          },
+        ],
+        groups: [
+          'builtin', // Node.js built-in modules
+          'external', // Packages
+          'internal', // Aliased modules
+          'parent', // Relative parent
+          'sibling', // Relative sibling
+          'index', // Relative index
+        ],
+        'newlines-between': 'never',
+      },
+    ],
   },
 };

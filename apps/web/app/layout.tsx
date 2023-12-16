@@ -3,8 +3,10 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { Space_Grotesk as SpaceGrotesk } from 'next/font/google';
-import { Providers } from './providers';
+import { SearchProvider } from 'pliny/search/index.js';
+import { SectionContainer } from '@/components/section-container';
 import { siteMetadata } from '@/data/site-metadata';
+import { Providers } from './providers';
 
 const spaceGrotesk = SpaceGrotesk({
   subsets: ['latin'],
@@ -100,7 +102,11 @@ export default function RootLayout({
       <link href="/feed.xml" rel="alternate" type="application/rss+xml" />
       <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white">
         <Providers>
-          {children}
+          <SectionContainer>
+            <SearchProvider searchConfig={siteMetadata.search}>
+              {children}
+            </SearchProvider>
+          </SectionContainer>
           <Analytics />
           <SpeedInsights />
         </Providers>
