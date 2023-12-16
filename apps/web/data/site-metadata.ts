@@ -1,6 +1,6 @@
 import type { PlinyConfig } from 'pliny/config.js';
 
-export const siteMetadata = {
+export const siteMetadata: PlinyConfig = {
   title: `Coobeet's Blog`,
   author: 'Frank Huang',
   headerTitle: 'TailwindBlog',
@@ -88,4 +88,4 @@ export const siteMetadata = {
     //   indexName: 'docsearch',
     // },
   },
-} satisfies PlinyConfig;
+};

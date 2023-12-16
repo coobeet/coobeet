@@ -8,11 +8,11 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@/contentlayer/*": [".contentlayer/*"],
       "@/components/*": ["components/*"],
       "@/data/*": ["data/*"],
       "@/lib/*": ["lib/*"],
-      "@/layouts/*": ["layouts/*"],
-      "contentlayer/generated": ["./.contentlayer/generated"]
+      "@/layouts/*": ["layouts/*"]
     }
   },
   "include": [

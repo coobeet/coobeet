@@ -1,6 +1,6 @@
 import { format, parseISO } from 'date-fns';
 import type { Metadata } from 'next';
-import { allPosts } from 'contentlayer/generated';
+import { allPosts } from '@/contentlayer/generated';
 
 interface Params {
   slug: string;

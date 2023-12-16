@@ -4,6 +4,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { Space_Grotesk as SpaceGrotesk } from 'next/font/google';
 import { SearchProvider } from 'pliny/search/index.js';
+import { Header } from '@/components/header';
 import { SectionContainer } from '@/components/section-container';
 import { siteMetadata } from '@/data/site-metadata';
 import { Providers } from './providers';
@@ -103,9 +104,13 @@ export default function RootLayout({
       <body className="bg-white text-black antialiased dark:bg-gray-950 dark:text-white">
         <Providers>
           <SectionContainer>
-            <SearchProvider searchConfig={siteMetadata.search}>
-              {children}
-            </SearchProvider>
+            <div className="flex h-screen flex-col justify-between font-sans">
+              {/* eslint-disable-next-line @typescript-eslint/no-non-null-assertion -- search is defined. */}
+              <SearchProvider searchConfig={siteMetadata.search!}>
+                <Header />
+                {children}
+              </SearchProvider>
+            </div>
           </SectionContainer>
           <Analytics />
           <SpeedInsights />

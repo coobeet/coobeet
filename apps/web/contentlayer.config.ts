@@ -1,11 +1,14 @@
 import { writeFileSync } from 'node:fs';
 import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js';
-import type { Post } from 'contentlayer/generated';
+import type { Post } from '@/contentlayer/generated';
 import { siteMetadata } from './data/site-metadata';
 
 function createSearchIndex(allPosts: Post[]): void {
-  if (siteMetadata.search.kbarConfig.searchDocumentsPath) {
+  if (
+    siteMetadata.search?.provider === 'kbar' &&
+    siteMetadata.search.kbarConfig.searchDocumentsPath
+  ) {
     writeFileSync(
       `public/${siteMetadata.search.kbarConfig.searchDocumentsPath}`,
       JSON.stringify(allCoreContent(sortPosts(allPosts))),
@@ -38,6 +41,7 @@ export const post = defineDocumentType(() => ({
 }));
 
 export default makeSource({
+  disableImportAliasWarning: true,
   contentDirPath: 'data',
   documentTypes: [post],
   onSuccess: async (importData) => {

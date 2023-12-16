@@ -1,8 +1,8 @@
 import { compareDesc, format, parseISO } from 'date-fns';
 import Link from 'next/link';
 import { ThemeSwitch } from '@/components/theme-switch';
-import type { Post } from 'contentlayer/generated';
-import { allPosts } from 'contentlayer/generated';
+import { allPosts } from '@/contentlayer/generated';
+import type { Post } from '@/contentlayer/generated';
 
 function PostCard(post: Post): JSX.Element {
   return (
