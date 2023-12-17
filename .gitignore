@@ -66,3 +66,6 @@ yarn-error.log*
 
 # search
 **/public/search.json
+
+# tag data
+**/lib/tag-data.json
