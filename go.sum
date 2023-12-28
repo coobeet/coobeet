@@ -2,8 +2,6 @@ buf.build/gen/go/coobeet/coobeet/connectrpc/go v1.13.0-20231215124148-a6c333cea5
 buf.build/gen/go/coobeet/coobeet/connectrpc/go v1.13.0-20231215124148-a6c333cea52f.1/go.mod h1:mSFzpy4g8iOmcV8HRhbKWmQ7wRt/P99zj82o9Ywf5dE=
 buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.31.0-20231215124148-a6c333cea52f.2 h1:Nk1zQxtcqOW8MqW/5IQBK4Ibm75V0Xk8uaFYpPIogLA=
 buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.31.0-20231215124148-a6c333cea52f.2/go.mod h1:Vie1cOxAKF2B5EpMYAazo/GUwdKzvg7dvNHnWizkAAs=
-connectrpc.com/connect v1.13.0 h1:lGs5maZZzWOOD+PFFiOt5OncKmMsk9ZdPwpy5jcmaYg=
-connectrpc.com/connect v1.13.0/go.mod h1:uHAFHtYgeSZJxXrkN1IunDpKghnTXhYbVh0wW4StPW0=
 connectrpc.com/connect v1.14.0 h1:PDS+J7uoz5Oui2VEOMcfz6Qft7opQM9hPiKvtGC01pA=
 connectrpc.com/connect v1.14.0/go.mod h1:uoAq5bmhhn43TwhaKdGKN/bZcGtzPW1v+ngDTn5u+8s=
 connectrpc.com/grpchealth v1.3.0 h1:FA3OIwAvuMokQIXQrY5LbIy8IenftksTP/lG4PbYN+E=
@@ -30,7 +28,6 @@ golang.org/x/text v0.14.0 h1:ScX5w1eTa3QqT8oi6+ziP7dTV1S2+ALU0bI+0zXKWiQ=
 golang.org/x/text v0.14.0/go.mod h1:18ZOQIKpY8NJVqYksKHtTdi31H5itFRjB5/qKTNYzSU=
 golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 google.golang.org/protobuf v1.26.0-rc.1/go.mod h1:jlhhOSvTdKEhbULTjvd4ARK9grFBp09yW+WbY/TyQbw=
-google.golang.org/protobuf v1.31.0 h1:g0LDEJHgrBl9N9r17Ru3sqWhkIx2NB67okBHPwC7hs8=
 google.golang.org/protobuf v1.31.0/go.mod h1:HV8QOd/L58Z+nl8r43ehVNZIU/HEI6OcFqwMG9pJV4I=
 google.golang.org/protobuf v1.32.0 h1:pPC6BG5ex8PDFnkbrGU3EixyhKcQ2aDuBS36lqK/C7I=
 google.golang.org/protobuf v1.32.0/go.mod h1:c6P6GXX6sHbq/GpV6MGZEdwhWPcYBgnhAHhKbcUYpos=
