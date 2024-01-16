@@ -3851,9 +3851,9 @@ __metadata:
   linkType: hard
 
 "@vercel/speed-insights@npm:^1.0.2":
-  version: 1.0.3
-  resolution: "@vercel/speed-insights@npm:1.0.3"
-  checksum: 991eff3fd3ea4c69faeb0881e0bc40caa52479fefbee9347a04c9f42ab178d53df9a796717940e8d0dda359b99fa799a5596f7d2ed2217f3165d66b7b08cdfeb
+  version: 1.0.4
+  resolution: "@vercel/speed-insights@npm:1.0.4"
+  checksum: 946c80ad3473aa2bfb4e4d15a630734ab558e6a92b58953587118e32f9bfde1685fc0f5277097b523a0bad79a0ce3f6dcec07d28e9226ebaf67080e9060193bd
   languageName: node
   linkType: hard
 
