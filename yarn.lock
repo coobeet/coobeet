@@ -3842,11 +3842,11 @@ __metadata:
   linkType: hard
 
 "@vercel/analytics@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "@vercel/analytics@npm:1.1.1"
+  version: 1.1.2
+  resolution: "@vercel/analytics@npm:1.1.2"
   dependencies:
     server-only: "npm:^0.0.1"
-  checksum: fece944678360085a5deaea3afdade16cab67097dca6585e02a1c4c67ac3ba91b8e0bb848b7ec686b87757aad763df5bae41ce103bdc16c6e586b9390d0b4c11
+  checksum: 1b8b98eaed3601d40cd265f8332525bbdb606e4e3545a37a0f1d05b28b84a95e7611ae2c52bf7c23ec6d763c2672ef5f3abf453770326a64e9f313ce2089e266
   languageName: node
   linkType: hard
 
