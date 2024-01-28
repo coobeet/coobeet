@@ -1,7 +1,11 @@
 buf.build/gen/go/coobeet/coobeet/connectrpc/go v1.13.0-20231215124148-a6c333cea52f.1 h1:2L9TYgWuiYU3Bz5h8mXn1QmFTrKCttb7zZsRevpI3o8=
 buf.build/gen/go/coobeet/coobeet/connectrpc/go v1.13.0-20231215124148-a6c333cea52f.1/go.mod h1:mSFzpy4g8iOmcV8HRhbKWmQ7wRt/P99zj82o9Ywf5dE=
+buf.build/gen/go/coobeet/coobeet/connectrpc/go v1.14.0-20231215124148-a6c333cea52f.1 h1:SnCZDsqrL8eFfLrhy8hvYRo9fkD8V5hhMLif6Vj1IvA=
+buf.build/gen/go/coobeet/coobeet/connectrpc/go v1.14.0-20231215124148-a6c333cea52f.1/go.mod h1:kYClPJkiJ3gyOkQ7A9Ogmrog2elIPqPSQtUAErNaDgg=
 buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.31.0-20231215124148-a6c333cea52f.2 h1:Nk1zQxtcqOW8MqW/5IQBK4Ibm75V0Xk8uaFYpPIogLA=
 buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.31.0-20231215124148-a6c333cea52f.2/go.mod h1:Vie1cOxAKF2B5EpMYAazo/GUwdKzvg7dvNHnWizkAAs=
+buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.32.0-20231215124148-a6c333cea52f.1 h1:0w6aNLanafgzm2JiY74MZ/oxxrTWxJTaGyp7urU5FDQ=
+buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.32.0-20231215124148-a6c333cea52f.1/go.mod h1:h4ErrdWSaBKQTJihXgse98UjnuHNL3DcLhaLOBFV+mQ=
 connectrpc.com/connect v1.14.0 h1:PDS+J7uoz5Oui2VEOMcfz6Qft7opQM9hPiKvtGC01pA=
 connectrpc.com/connect v1.14.0/go.mod h1:uoAq5bmhhn43TwhaKdGKN/bZcGtzPW1v+ngDTn5u+8s=
 connectrpc.com/grpchealth v1.3.0 h1:FA3OIwAvuMokQIXQrY5LbIy8IenftksTP/lG4PbYN+E=
