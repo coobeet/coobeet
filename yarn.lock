@@ -6957,13 +6957,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"github-slugger@npm:^1.4.0":
-  version: 1.5.0
-  resolution: "github-slugger@npm:1.5.0"
-  checksum: c70988224578b3bdaa25df65973ffc8c24594a77a28550c3636e495e49d17aef5cdb04c04fa3f1744babef98c61eecc6a43299a13ea7f3cc33d680bf9053ffbe
-  languageName: node
-  linkType: hard
-
 "github-slugger@npm:^2.0.0":
   version: 2.0.0
   resolution: "github-slugger@npm:2.0.0"
@@ -8478,9 +8471,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kbar@npm:0.1.0-beta.44":
-  version: 0.1.0-beta.44
-  resolution: "kbar@npm:0.1.0-beta.44"
+"kbar@npm:0.1.0-beta.45":
+  version: 0.1.0-beta.45
+  resolution: "kbar@npm:0.1.0-beta.45"
   dependencies:
     "@radix-ui/react-portal": "npm:^1.0.1"
     fast-equals: "npm:^2.0.3"
@@ -8490,7 +8483,7 @@ __metadata:
   peerDependencies:
     react: ^16.0.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 2d22a5d4ac348647b6fe2222f36a8023b8ebcfaccef18b84ac1173c6532a31fab5ce8795ce5a422fca1499265a6d0f0b2c8c233e9008e6782b0805a1707f6ba7
+  checksum: 16d161b8563400cc5bff15cf1ba881eb7a00e7bb8b5bd8b67c878fdb60a3db7380ee36f2ac29f15361ece0b214c7d5322d02c954381036d3f72a5227d8d3eb47
   languageName: node
   linkType: hard
 
@@ -10765,17 +10758,17 @@ __metadata:
   linkType: hard
 
 "pliny@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "pliny@npm:0.1.6"
+  version: 0.1.7
+  resolution: "pliny@npm:0.1.7"
   dependencies:
     "@docsearch/react": "npm:^3.5.0"
     "@giscus/react": "npm:^2.3.0"
     "@mailchimp/mailchimp_marketing": "npm:^3.0.80"
     contentlayer: "npm:^0.3.4"
     copyfiles: "npm:^2.4.1"
-    github-slugger: "npm:^1.4.0"
+    github-slugger: "npm:^2.0.0"
     js-yaml: "npm:4.1.0"
-    kbar: "npm:0.1.0-beta.44"
+    kbar: "npm:0.1.0-beta.45"
     next-contentlayer: "npm:^0.3.4"
     next-themes: "npm:^0.2.1"
     probe-image-size: "npm:^7.2.3"
@@ -10785,7 +10778,7 @@ __metadata:
     next: ">=13.0.0"
     react: ^17.0.2 || ^18.0.0
     react-dom: ^17.0.2 || ^18.0.0
-  checksum: ba20f4faea0aef5f80d5a071aaa8fdb4929b371837b10bc7e8bb82a39923cf28cf2d684953f77595c8981c2f9af44a9cd04776f72ffec44d01a015dec08910fa
+  checksum: 2781062a5a88dc2b81e4cc31314f39192b0f94659262b06f920450fb79538113ced5bd5d911812da7e55212501a679391afed1a90867bfb6341573003210fb3b
   languageName: node
   linkType: hard
 
