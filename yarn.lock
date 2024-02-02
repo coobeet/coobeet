@@ -3878,8 +3878,8 @@ __metadata:
   linkType: hard
 
 "@vercel/style-guide@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "@vercel/style-guide@npm:5.1.0"
+  version: 5.2.0
+  resolution: "@vercel/style-guide@npm:5.2.0"
   dependencies:
     "@babel/core": "npm:^7.22.11"
     "@babel/eslint-parser": "npm:^7.22.11"
@@ -3914,7 +3914,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/0994c96d825da38fbb0702ba5727692fa0ff89b93566509a559ebc7c1a373c1651767abf4c72263a9fa9cd6c51e112175783b4d9f6775d5deb1d98f985437c2d
+  checksum: 10/98870cd9e16ee56224f883f70d121a1a7cd0157a5fdf7995ae908ad8bc06271bf6b25a0642a21b995f8583bbeb607d58bd73224a04e908e82e3d39b53c8d8693
   languageName: node
   linkType: hard
 
