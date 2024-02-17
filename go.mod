@@ -3,9 +3,9 @@ module github.com/coobeet/coobeet
 go 1.21
 
 require (
-	buf.build/gen/go/coobeet/coobeet/connectrpc/go v1.14.0-20231215124148-a6c333cea52f.1
+	buf.build/gen/go/coobeet/coobeet/connectrpc/go v1.15.0-20231215124148-a6c333cea52f.1
 	buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.32.0-20231215124148-a6c333cea52f.1
-	connectrpc.com/connect v1.14.0
+	connectrpc.com/connect v1.15.0
 	connectrpc.com/grpchealth v1.3.0
 	connectrpc.com/grpcreflect v1.2.0
 	github.com/rs/cors v1.10.1
