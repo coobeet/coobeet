@@ -3842,8 +3842,8 @@ __metadata:
   linkType: hard
 
 "@vercel/analytics@npm:^1.1.1":
-  version: 1.2.0
-  resolution: "@vercel/analytics@npm:1.2.0"
+  version: 1.2.1
+  resolution: "@vercel/analytics@npm:1.2.1"
   dependencies:
     server-only: "npm:^0.0.1"
   peerDependencies:
@@ -3854,7 +3854,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 10/3fa1487fd25809c9cc8d9e94c6b0ab8327af416235aee6ceab03f851d9aafedae2270b9d48e35150cfe0a4f29d38b96d5453b2fe1cb51b7e6efbc1a51ba2c9fb
+  checksum: 10/87a28af7050f6e9660875afb1f04745fe97bac3810f862fc771f192b5a8863f77b61ff448da667bad87c90ed0865053bc7b237e20d778f3badad62e03c9ddbcf
   languageName: node
   linkType: hard
 
