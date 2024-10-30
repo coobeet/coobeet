@@ -6,6 +6,8 @@ buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.32.0-20231215124148-a6c33
 buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.32.0-20231215124148-a6c333cea52f.1/go.mod h1:h4ErrdWSaBKQTJihXgse98UjnuHNL3DcLhaLOBFV+mQ=
 buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.34.2-20231215124148-a6c333cea52f.2 h1:PCXI3qZ+iZQ8jGS4L9nh9faksrEOu/rUxLD6qFIcExc=
 buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.34.2-20231215124148-a6c333cea52f.2/go.mod h1:jYhzGMKGaFcf7wOfDqI9z8hwW7qjcCBC3XHhALHfFO0=
+buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.35.1-20231215124148-a6c333cea52f.1 h1:Xcl7qgSb3XEiPQahExwTr9ORuZ4rJhgYOjMcLzH7kmE=
+buf.build/gen/go/coobeet/coobeet/protocolbuffers/go v1.35.1-20231215124148-a6c333cea52f.1/go.mod h1:K9bA6jLE/Kd3uyhwFDjA3wtPtJQRqdlYDf5Ya6plvHg=
 connectrpc.com/connect v1.15.0 h1:lFdeCbZrVVDydAqwr4xGV2y+ULn+0Z73s5JBj2LikWo=
 connectrpc.com/connect v1.15.0/go.mod h1:bQmjpDY8xItMnttnurVgOkHUBMRT9cpsNi2O4AjKhmA=
 connectrpc.com/connect v1.17.0 h1:W0ZqMhtVzn9Zhn2yATuUokDLO5N+gIuBWMOnsQrfmZk=
@@ -44,6 +46,8 @@ google.golang.org/protobuf v1.32.0 h1:pPC6BG5ex8PDFnkbrGU3EixyhKcQ2aDuBS36lqK/C7
 google.golang.org/protobuf v1.32.0/go.mod h1:c6P6GXX6sHbq/GpV6MGZEdwhWPcYBgnhAHhKbcUYpos=
 google.golang.org/protobuf v1.34.2 h1:6xV6lTsCfpGD21XK49h7MhtcApnLqkfYgPcdHftf6hg=
 google.golang.org/protobuf v1.34.2/go.mod h1:qYOHts0dSfpeUzUFpOMr/WGzszTmLH+DiWniOlNbLDw=
+google.golang.org/protobuf v1.35.1 h1:m3LfL6/Ca+fqnjnlqQXNpFPABW1UD7mjh8KO2mKFytA=
+google.golang.org/protobuf v1.35.1/go.mod h1:9fA7Ob0pmnwhb644+1+CVWFRbNajQ6iRojtC/QF5bRE=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405 h1:yhCVgyC4o1eVCa2tZl7eS0r+SDo693bJlVdllGtEeKM=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
